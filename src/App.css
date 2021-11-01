@@ -1,0 +1,29 @@
+body{
+  box-sizing: border-box;
+  margin: auto auto;
+}
+.title-list{
+font-size: 30px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: brown;
+text-align:center;
+padding-top: 30px;
+padding-bottom: 20px;
+}
+
+
+.list{
+  text-align:left;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 5px;
+  text-decoration: none;
+
+}
+.list  li:nth-child(1) {
+  background: lightsteelblue;
+  text-decoration: none;
+  list-style-type:square;
+  font-size: bold;
+  height:30 px;
+}
